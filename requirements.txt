@@ -1,0 +1,10 @@
+# EARTHSCOPE runtime dependencies (all free / open source).
+# Lower bounds are the OLDEST versions the full test suite was run against; newer versions were also tested
+# (see README "Tested with"). Use a virtual environment.
+streamlit>=1.50
+pandas>=2.2.3
+numpy>=2.1.3
+scipy>=1.14.1
+plotly>=5.24.1
+pymannkendall>=1.4.3
+requests>=2.31.0

@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+env/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# EARTHSCOPE runtime files
+# on-disk cache of NASA POWER responses (re-created automatically)
+data_cache/
+smoke_test_report.txt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (none are used, but never commit them)
+.streamlit/secrets.toml
